@@ -1,0 +1,28 @@
+{
+  "name": "branding",
+  "description": "CSS utility classes for branding",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "src/branding.css",
+  "style": "src/branding.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "scripts": {
+    "start": "tachyons src/branding.css > css/branding.css --repeat && tachyons src/branding.css > css/branding.min.css --minify --repeat"
+  },
+  "repository": "johnotander/branding",
+  "keywords": [
+    "css",
+    "utility",
+    "tachyons",
+    "modules",
+    "oocss"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "tachyons-cli": "^0.4.0"
+  }
+}

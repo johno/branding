@@ -1,0 +1,778 @@
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.primary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 21, column: 12 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 21, column: 33 } },
+  prop: 'color',
+  value: '#07c' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-primary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 22, column: 15 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 22, column: 47 } },
+  prop: 'background-color',
+  value: '#07c' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.border-primary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 23, column: 19 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 23, column: 47 } },
+  prop: 'border-color',
+  value: '#07c' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.secondary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 25, column: 14 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 25, column: 37 } },
+  prop: 'color',
+  value: '#001f3f' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-secondary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 26, column: 17 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 26, column: 51 } },
+  prop: 'background-color',
+  value: '#001f3f' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.border-secondary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 27, column: 21 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 27, column: 51 } },
+  prop: 'border-color',
+  value: '#001f3f' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.tertiary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 29, column: 13 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 29, column: 35 } },
+  prop: 'color',
+  value: '#FFDC00' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-tertiary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 30, column: 16 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 30, column: 49 } },
+  prop: 'background-color',
+  value: '#FFDC00' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.border-tertiary',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 31, column: 20 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 31, column: 49 } },
+  prop: 'border-color',
+  value: '#FFDC00' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.primary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 33, column: 21 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 33, column: 51 } },
+  prop: 'color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-primary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 34, column: 24 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 34, column: 65 } },
+  prop: 'background-color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.border-primary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 35, column: 28 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 35, column: 65 } },
+  prop: 'border-color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.secondary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 37, column: 23 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 37, column: 55 } },
+  prop: 'color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-secondary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 38, column: 26 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 38, column: 69 } },
+  prop: 'background-color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.border-secondary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 39, column: 30 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 39, column: 69 } },
+  prop: 'border-color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.tertiary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 41, column: 22 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 41, column: 53 } },
+  prop: 'color',
+  value: '#444' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-tertiary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 42, column: 25 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 42, column: 67 } },
+  prop: 'background-color',
+  value: '#444' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.border-tertiary-contrast',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 43, column: 29 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 43, column: 67 } },
+  prop: 'border-color',
+  value: '#444' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.bg-header',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 45, column: 14 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 45, column: 48 } },
+  prop: 'background-color',
+  value: '#fafafa' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: '.header',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 46, column: 11 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 46, column: 37 } },
+  prop: 'color',
+  value: '#444' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular], [Object] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: 'body',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 49, column: 3 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 49, column: 30 } },
+  prop: 'background-color',
+  value: '#fff' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Object], [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: 'body',
+     lastEach: 9,
+     indexes: { '9': 1 } },
+  source: 
+   { start: { line: 50, column: 3 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 50, column: 22 } },
+  prop: 'color',
+  value: '#444' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular], [Object] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: 'a',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 54, column: 3 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 54, column: 27 } },
+  prop: 'color',
+  value: '#07c' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Object], [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: 'a',
+     lastEach: 9,
+     indexes: { '9': 1 } },
+  source: 
+   { start: { line: 55, column: 3 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 55, column: 42 } },
+  prop: 'text-decoration',
+  value: 'none' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Circular], [Object] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: 'a:hover',
+     lastEach: 9,
+     indexes: { '9': 0 } },
+  source: 
+   { start: { line: 59, column: 3 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 59, column: 33 } },
+  prop: 'color',
+  value: '#07a' }
+Declaration {
+  raws: { before: '', between: ': ' },
+  type: 'decl',
+  parent: 
+   Rule {
+     raws: { before: '\n', between: ' ', semicolon: true, after: ' ' },
+     type: 'rule',
+     nodes: [ [Object], [Circular] ],
+     parent: 
+      Root {
+        raws: [Object],
+        type: 'root',
+        nodes: [Object],
+        source: [Object],
+        lastEach: 9,
+        indexes: [Object] },
+     source: { start: [Object], input: [Object], end: [Object] },
+     selector: 'a:hover',
+     lastEach: 9,
+     indexes: { '9': 1 } },
+  source: 
+   { start: { line: 60, column: 3 },
+     input: 
+      Input {
+        css: ':root {\n  --primary: #07c;\n  --secondary: #001f3f;\n  --tertiary: #FFDC00;\n  --primary-contrast: #fff;\n  --secondary-contrast: #fff;\n  --tertiary-contrast: #444;\n\n  --bg: #fff;\n  --color: #444;\n\n  --header-bg: #fafafa;\n  --header-color: #444;\n\n  --link-color: #07c;\n  --link-decoration: none;\n  --link-hover-color: #07a;\n  --link-hover-decoration: underline;\n}\n\n.primary { color: var(--primary); }\n.bg-primary { background-color: var(--primary); }\n.border-primary { border-color: var(--primary); }\n\n.secondary { color: var(--secondary); }\n.bg-secondary { background-color: var(--secondary); }\n.border-secondary { border-color: var(--secondary); }\n\n.tertiary { color: var(--tertiary); }\n.bg-tertiary { background-color: var(--tertiary); }\n.border-tertiary { border-color: var(--tertiary); }\n\n.primary-contrast { color: var(--primary-contrast); }\n.bg-primary-contrast { background-color: var(--primary-contrast); }\n.border-primary-contrast { border-color: var(--primary-contrast); }\n\n.secondary-contrast { color: var(--secondary-contrast); }\n.bg-secondary-contrast { background-color: var(--secondary-contrast); }\n.border-secondary-contrast { border-color: var(--secondary-contrast); }\n\n.tertiary-contrast { color: var(--tertiary-contrast); }\n.bg-tertiary-contrast { background-color: var(--tertiary-contrast); }\n.border-tertiary-contrast { border-color: var(--tertiary-contrast); }\n\n.bg-header { background-color: var(--header-bg); }\n.header { color: var(--header-color); }\n\nbody {\n  background-color: var(--bg);\n  color: var(--color);\n}\n\na {\n  color: var(--link-color);\n  text-decoration: var(--link-decoration);\n}\n\na:hover {\n  color: var(--link-hover-color);\n  text-decoration: var(--link-hover-decoration);\n}\n',
+        file: '/Users/johno/code/branding/src/branding.css' },
+     end: { line: 60, column: 48 } },
+  prop: 'text-decoration',
+  value: 'underline' }
+.primary.primary.primary.primary { color: #07c; }
+.bg-primary.bg-primary.bg-primary.bg-primary { background-color: #07c; }
+.border-primary.border-primary.border-primary.border-primary { border-color: #07c; }
+.secondary.secondary.secondary.secondary { color: #001f3f; }
+.bg-secondary.bg-secondary.bg-secondary.bg-secondary { background-color: #001f3f; }
+.border-secondary.border-secondary.border-secondary.border-secondary { border-color: #001f3f; }
+.tertiary.tertiary.tertiary.tertiary { color: #FFDC00; }
+.bg-tertiary.bg-tertiary.bg-tertiary.bg-tertiary { background-color: #FFDC00; }
+.border-tertiary.border-tertiary.border-tertiary.border-tertiary { border-color: #FFDC00; }
+.primary-contrast.primary-contrast.primary-contrast.primary-contrast { color: #fff; }
+.bg-primary-contrast.bg-primary-contrast.bg-primary-contrast.bg-primary-contrast { background-color: #fff; }
+.border-primary-contrast.border-primary-contrast.border-primary-contrast.border-primary-contrast { border-color: #fff; }
+.secondary-contrast.secondary-contrast.secondary-contrast.secondary-contrast { color: #fff; }
+.bg-secondary-contrast.bg-secondary-contrast.bg-secondary-contrast.bg-secondary-contrast { background-color: #fff; }
+.border-secondary-contrast.border-secondary-contrast.border-secondary-contrast.border-secondary-contrast { border-color: #fff; }
+.tertiary-contrast.tertiary-contrast.tertiary-contrast.tertiary-contrast { color: #444; }
+.bg-tertiary-contrast.bg-tertiary-contrast.bg-tertiary-contrast.bg-tertiary-contrast { background-color: #444; }
+.border-tertiary-contrast.border-tertiary-contrast.border-tertiary-contrast.border-tertiary-contrast { border-color: #444; }
+.bg-header.bg-header.bg-header.bg-header { background-color: #fafafa; }
+.header.header.header.header { color: #444; }
+body { background-color: #fff; color: #444; }
+a { color: #07c; text-decoration: none; }
+a:hover { color: #07a; text-decoration: underline; }
+
